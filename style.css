@@ -1,0 +1,117 @@
+body {
+  background-color: #f9f9f9;
+  text-decoration: none;
+  line-height: 1.6;
+  font-family: 'Roboto', sans-serif;;
+  color: rgb(30, 30, 30);
+  font-size: 80px;
+
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  color: #b73535;
+  font-size: 30;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  color: rgb(30, 30, 30);
+  font-size: 20px;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  color: rgb(30, 30, 30);
+  font-size: 15px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(30, 30, 30);
+  font-size: 15px;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: rgb(30, 30, 30);
+  text-decoration: none;
+}
+
+a:hover {
+  font-family: 'Roboto', sans-serif;
+  color: #b73535;
+  text-decoration: none;
+}
+
+ul {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: rgb(30, 30, 30);
+  text-decoration: none;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto;
+  text-align: center; /* This automatically sets left/right margins */
+}
+
+.card {
+  width: 700px;   /* This sets the width */
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  padding: 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.img-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.red-call-to-action-button {
+  border-radius: 5px;
+  padding: 10px 10px;
+  background-color: #b73535;
+  color: white
+}
+
+.red-call-to-action-button:hover {
+  background-color: #b73535;
+  color: white;
+  opacity: 0.5;
+}
